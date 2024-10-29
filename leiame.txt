@@ -1,0 +1,15 @@
+'''
+Integrantes: Annanda e Wellddington
+
+Materiais consultados:
+    - https://educapes.capes.gov.br/handle/capes/176557
+    - https://youtu.be/jIM87UqOq3g?si=KQ2XZL1L3iBrn6Ds
+
+Comentário:
+A principal dificuldade encontrada foi garantir que a estrutura permanecesse
+circular após a adição e remoção dos membros.
+
+Discussão sobre desempenho:
+O(1): "is_empty" e "proximo_responsavel"
+O(n): "add_membro", "remover_membro" e "mostrar_lista"
+'''
