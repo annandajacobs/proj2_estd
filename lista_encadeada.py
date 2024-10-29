@@ -130,11 +130,6 @@ proximo_responsavel = lista.proximo_responsavel()
 print(proximo_responsavel)
 print('\n')
 
-# Mostra como ficou
-print("Lista depois de obter o próximo responsável:")
-print(lista.mostrar_lista())
-print('\n')
-
 # Removendo todos os membros
 remover3 = lista.remover_membro("Bia")
 print(remover3)
