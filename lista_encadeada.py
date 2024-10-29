@@ -56,11 +56,11 @@ class ListaEncadeadaCircular:
                     self.head = None
                 else:
                     if atual == self.head:
-                        ultimo = self.head
-                        while ultimo.getNext() != self.head:
-                            ultimo = ultimo.getNext()
+                        proximo = self.head
+                        while proximo.getNext() != self.head:
+                            proximo = proximo.getNext()
                         self.head = self.head.getNext()
-                        ultimo.setNext(self.head)
+                        proximo.setNext(self.head)
                     else:
                         anterior.setNext(atual.getNext())
 
